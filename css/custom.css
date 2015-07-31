@@ -1,3 +1,39 @@
 body{
 	background:black;
+	color:white;
+	padding:0px;
+	margin:0px;
+}
+
+nav{}
+
+	nav ul{
+		list-style:none;
+		border:solid 1px white;
+		padding:0px;
+	}
+
+	nav ul li{
+		display:inline-block;
+		border:solid 1px white;
+		width:24.5%;
+		text-align:center;
+		padding-top:10px;
+		height:30px;
+		font-size:14pt;
+
+	}
+
+
+#container{
+	border:solid 1px white;
+	width:960px;
+	margin:0 auto;
+	height:100vh;
+}
+
+nav ul li:hover{
+	background:white;
+	color:black;
+	cursor:pointer;
 }
